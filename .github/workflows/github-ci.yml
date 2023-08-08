@@ -31,5 +31,3 @@ jobs:
   api-scan:
     needs: [ deploy ]
     uses: ./.github/workflows/api-scan.yml
-    secrets:
-      END_POINT: ${{ secrets.END_POINT }}
