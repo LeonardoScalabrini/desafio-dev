@@ -44,6 +44,9 @@ kubectl apply -f .\kube\
 
 # API Documentation #
 
+SWAGGER
+http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+
 POST http://localhost:8080/api/v1/upload/cnab
 ```JSON
 Content-Disposition: form-data; filename="example.txt"
