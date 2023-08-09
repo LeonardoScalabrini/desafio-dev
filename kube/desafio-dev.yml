@@ -42,3 +42,5 @@ spec:
               value: "postgres"
             - name: SPRING_DATASOURCE_PASSWORD
               value: "password"
+            - name: SPRING_PROFILES_ACTIVE
+              value: "production"
